@@ -1,11 +1,14 @@
 body {
+    background-image:  url("/assets/images/background.png") !important;
+    background-repeat: repeat;
+    color: white !important;
 }
 
 .cp-bg {
-  background-image: linear-gradient(to right, #ce66ff, #01a7cd);
-  color: white !important;
+    background-image: linear-gradient(to right, #ce66ff, #01a7cd);
+    color: white !important;
 }
 
 .main-bar {
-  font-family: Dank Mono;
+    font-family: Dank Mono;
 }
