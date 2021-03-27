@@ -1,0 +1,11 @@
+body {
+}
+
+.cp-bg {
+  background-image: linear-gradient(to right, #ce66ff, #01a7cd);
+  color: white !important;
+}
+
+.main-bar {
+  font-family: Dank Mono;
+}
