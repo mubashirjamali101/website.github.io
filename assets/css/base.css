@@ -15,4 +15,9 @@ body {
 
 .hero-section {
     margin-top: 8%;
+    background-image: linear-gradient(to right, #ce66ff, #01a7cd);
+}
+
+.graphics {
+    width: 200px;
 }
