@@ -1,5 +1,5 @@
 body {
-    background-image:  url("/assets/images/background.png") !important;
+    background-image:  url("/assets/images/bg_light.png") !important;
     background-repeat: repeat;
     color: white !important;
     font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma;
@@ -8,11 +8,13 @@ body {
 
 p {
     font-size: 18px;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, Arial;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell;
 }
+
 
 .cp-bg {
     background-image: linear-gradient(to right, #ce66ff, #01a7cd);
+    /* background-color: black; */
     color: white !important;
 }
 
@@ -22,7 +24,7 @@ p {
 
 .hero-section {
     margin-top: 8%;
-    /* background-image: linear-gradient(to right, #ce66ff, #01a7cd); */
+    background-image: linear-gradient(to right, #ce66ff, #01a7cd);
     /* margin-right: 0px !important;
     margin-left: 0px !important; */
 }
@@ -31,6 +33,7 @@ p {
 } */
 
 .content {
+    /* background-color: black; */
     margin-top: 8%;
     /* width:50.5%; */
 }
@@ -40,6 +43,9 @@ p {
     margin-top: 40px;
     width:100%;
 }
+
+.contact-item {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell !important;
 }
 
 @media only screen and (max-width: 300px) {
