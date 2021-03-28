@@ -1,2 +1,8 @@
 User-agent: *
-Allow: /
+Allow: /*
+
+User-agent: *
+Disallow: /assets/images/pic3.min.png
+Disallow: /assets/images/logo.svg
+Disallow: /assets/images/Asset 56.svg
+Disallow: /assets/images/pic3.png
