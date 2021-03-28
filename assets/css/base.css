@@ -6,6 +6,11 @@ body {
     scroll-behavior: smooth;
 }
 
+p {
+    font-size: 18px;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif, Arial;
+}
+
 .cp-bg {
     background-image: linear-gradient(to right, #ce66ff, #01a7cd);
     color: white !important;
@@ -17,24 +22,33 @@ body {
 
 .hero-section {
     margin-top: 8%;
-    background-image: linear-gradient(to right, #ce66ff, #01a7cd);
-    margin-right: 0px !important;
-    margin-left: 0px !important;
+    /* background-image: linear-gradient(to right, #ce66ff, #01a7cd); */
+    /* margin-right: 0px !important;
+    margin-left: 0px !important; */
 }
-.header {
-    margin-top: 0;
-    margin-right: 0px !important;
-}
+/* .header {
+    margin:0;
+} */
 
 .content {
-    margin-top: 15%;
+    margin-top: 8%;
+    /* width:50.5%; */
+}
+
+@media only screen and (max-width: 768px) {
+.content {
+    margin-top: 40px;
+    width:100%;
+}
 }
 
 @media only screen and (max-width: 300px) {
     .header {
         margin-top: 20%;
     }
+
     .main-bar {
         margin-left:10px;
     }
+
 }
