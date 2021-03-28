@@ -28,9 +28,9 @@ p {
     /* margin-right: 0px !important;
     margin-left: 0px !important; */
 }
-/* .header {
-    margin:0;
-} */
+.header {
+    height: 300px;
+}
 
 .content {
     /* background-color: black; */
