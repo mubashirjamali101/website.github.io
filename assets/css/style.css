@@ -397,6 +397,10 @@ textarea.form-control {
 
 /* /form */
 /* card */
+.line-primary {
+  border-color: #41228e !important;
+}
+
 .card {
   border: 0;
 }
