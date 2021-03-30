@@ -586,28 +586,30 @@
         >
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center">
-                        <h2 class="section-title">Contact</h2>
-                    </div>
                     <div class="col-lg-8 mx-auto">
                         <div
-                            class="bg-white rounded text-center p-5 shadow-down"
+                        class="bg-white rounded text-center p-5 shadow-down"
                         >
-                            <h3 class="mb-80">Message</h3>
-                            <form
-                                class="gform row"
-                                method="POST"
-                                data-email="mubashirjamali09@gmail.com"
-                                action="https://script.google.com/macros/s/AKfycbznTjtLeDA8Jo3rFMTxgJ3k3Se4ln3QMJRZsIIMhelURUzOWkw/exec"
-                                id="form"
-                            >
-                                <div class="col-md-6">
-                                    <input
+                        <div class="col-12 text-center">
+                            <h2 class="section-title">Contact</h2>
+                            <hr class="mt-0 mb-5">
+                        </div>
+                        <form
+                        class="gform row"
+                        style="display: block;"
+                        method="POST"
+                        data-email="mubashirjamali09@gmail.com"
+                        action="https://script.google.com/macros/s/AKfycbznTjtLeDA8Jo3rFMTxgJ3k3Se4ln3QMJRZsIIMhelURUzOWkw/exec"
+                        id="form"
+                        >
+                        <h3 class="mb-80"> Leave A Message</h3>
+                        <div class="col-md-6">
+                            <input
                                         type="text"
                                         id="name"
                                         name="name"
                                         placeholder="Full Name"
-                                        class="form-control px-0 mb-4"
+                                        class="form-control border-bottom bg-light border-secondary pl-3 mb-4"
                                     />
                                 </div>
                                 <div class="col-md-6">
@@ -616,15 +618,15 @@
                                         id="email"
                                         name="email"
                                         placeholder="Email Address"
-                                        class="form-control px-0 mb-4"
+                                        class="form-control border-bottom bg-light border-secondary pl-3 mb-4"
                                     />
                                 </div>
                                 <div class="col-12">
                                     <textarea
                                         name="message"
                                         id="message"
-                                        class="form-control px-0 mb-4"
-                                        placeholder="Type Message Here"
+                                        class="form-control border-bottom bg-light border-secondary p-3 mb-4"
+                                        placeholder="Message"
                                     ></textarea>
                                 </div>
                                 <div class="col-lg-12 col-12 mx-auto">
@@ -645,14 +647,14 @@
                                 >
                                     Must be a valid email address</span
                                 >
-                                <div style="display: none" id="success-msg">
-                                    <div class="col-12 mt-5">
-                                        <p class="text-dark h5 text-center">
-                                            Message Sent!
-                                        </p>
-                                    </div>
-                                </div>
                             </form>
+                            <div style="display: none" id="success-msg">
+                                <div class="col-12 mt-5">
+                                    <p class="text-dark h5 text-center">
+                                        Message Sent!
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

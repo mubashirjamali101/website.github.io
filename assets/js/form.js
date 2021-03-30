@@ -85,11 +85,11 @@
             xhr.onreadystatechange = function () {
                 // console.log(xhr.status, xhr.statusText);
                 // console.log(xhr.responseText);
-                var contactForm = form.querySelector("#form")
+                var contactForm = document.querySelector("#form");
                 if (contactForm) {
                     contactForm.style.display = "none"; // hide form
                 }
-                var thankYouMessage = form.querySelector("#success-msg");
+                var thankYouMessage = document.querySelector("#success-msg");
                 if (thankYouMessage) {
                     thankYouMessage.style.display = "block";
                 }
