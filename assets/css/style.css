@@ -481,17 +481,17 @@ textarea.form-control {
 
 #l3 {
   top: 200px;
-  left: 40%;
+  left: 60%;
 }
 
 #l4 {
-  top: 200px;
+  top: 150px;
   right: 40%;
 }
 
 #l5 {
-  top: 100px;
-  right: -150px;
+  top: -10%;
+  right: 45%;
 }
 
 #l6 {
@@ -511,7 +511,7 @@ textarea.form-control {
 
 #l9 {
   bottom: 100px;
-  right: -10px;
+  right: 1%;
 }
 
 .layer-bg {

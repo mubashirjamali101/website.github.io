@@ -47,6 +47,7 @@ p {
 .contact-item {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, Oxygen, Ubuntu, Cantarell !important;
 }
+}
 
 @media only screen and (max-width: 300px) {
     .header {
