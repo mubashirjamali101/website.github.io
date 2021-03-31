@@ -70,12 +70,10 @@ h6, .h6 {
 
 /* Button style */
 .btn {
-  font-size: 22px;
-  /* font-family: "Playfair Display", serif; */
+  font-size: 20px;
   text-transform: capitalize;
-  padding: 16px 44px;
+  padding: 10px 33px;
   border-radius: 5px;
-  font-weight: 600;
   border: 0;
   position: relative;
   z-index: 1;
@@ -702,20 +700,20 @@ textarea.form-control {
 }
 
 .testimonial-bg-shapes .bg-shape-3 {
-  position: absolute;
-  right: 50px;
-  top: 200px;
+  position: relative;
+  left: 2%;
+  top: 100px;
 }
 
 .testimonial-bg-shapes .bg-shape-4 {
   position: absolute;
   left: 100px;
-  bottom: 200px;
+  bottom: 100px;
 }
 
 .testimonial-bg-shapes .bg-shape-5 {
   position: absolute;
-  right: 200px;
+  right: 2%;
   bottom: -50px;
 }
 
@@ -816,7 +814,7 @@ blockquote {
 
 .page-title-alt .bg-shape-3 {
   position: absolute;
-  left: 30%;
+  /* left: 20%; */
   top: 50px;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -824,8 +822,8 @@ blockquote {
 
 .page-title-alt .bg-shape-4 {
   position: absolute;
-  left: 100px;
-  bottom: 100px;
+  left: 1%;
+  bottom: 1%;
 }
 
 .page-title-alt .bg-shape-5 {
@@ -854,6 +852,7 @@ blockquote {
   left: 0;
   bottom: 0;
   width: 100%;
+  max-width: 2000px;
 }
 
 .page-title .bg-shape-2 {
@@ -864,8 +863,9 @@ blockquote {
 
 .page-title .bg-shape-3 {
   position: absolute;
-  left: 10%;
-  top: 100px;
+  left: 30% !important;
+  top: 30%;
+  z-index: 100;
 }
 
 .page-title .bg-shape-4 {
@@ -876,10 +876,12 @@ blockquote {
 
 .page-title .bg-shape-5 {
   position: absolute;
-  left: 90px;
-  bottom: -50px;
+  left: -5%;
+  bottom: 1%;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+  width: 40%;
+  max-width: 300px;
 }
 
 .page-title .bg-shape-6 {
@@ -890,8 +892,10 @@ blockquote {
 
 .page-title .bg-shape-7 {
   position: absolute;
-  right: -220px;
-  bottom: -100px;
+  right: 5%;
+  top: 30%;
+  width: 40%;
+  max-width: 300px;
 }
 
 .filter-controls li {
