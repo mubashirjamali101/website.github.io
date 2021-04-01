@@ -44,7 +44,16 @@
   </script>
 
   <!-- Google AdSense -->
-  <script data-ad-client="ca-pub-6629027759615848" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-pub-6629027759615848" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <!-- custom font style -->
+  <style>
+    @font-face {
+      font-family: 'charter';
+      src: url('../assets/fonts/charter_regular-webfont.woff') format('woff')
+    }
+  </style>
 </head>
 
 <body id="home">
@@ -108,7 +117,8 @@
             <strong>
               SMALL STRONG DESCRIPTION
             </strong>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="post-text text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+              incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat
@@ -118,7 +128,8 @@
               vitae
               dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
               consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="post-text text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat
@@ -134,7 +145,8 @@
             <blockquote>
               STRONG TOOLTIP, BLOCKQUOTE, TIP, WARNING OR ALERT.
             </blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+            <p class="post-text text-grey">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
               fugiat
@@ -148,7 +160,7 @@
               ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
               labore et dolore magnam aliquam quaerat voluptatem.</p>
           </div>
-          <p class="text-dark">Published on DATE by <strong>Mubashir Jamali</strong></p>
+          <p class="text-grey">Published on DATE by <strong>Mubashir Jamali</strong></p>
         </div>
       </div>
     </div>
@@ -272,15 +284,15 @@
 
   <!-- footer -->
   <footer class="bg-dark">
-    <div class="text-center py-5">
-      <p class="mb-0 text-white fw-bold">
+    <div class="text-center pt-4 pb-1">
+      <h5 class="mb-0 text-white ">
         Copyright ©
         <span id="year" class="text-white"></span>
         Mubashir Jamali
-      </p>
+      </h5>
       <p class="text-dark-light fw-light">
-        For <span class="text-white">Suggestions </span> &
-        <span class="text-white">Errors</span> please contact at
+        For <strong class="text-white">Suggestions </strong> &
+        <strong class="text-white">Errors</strong> please contact at
         crazyprogrammer@criptext.com
       </p>
     </div>
